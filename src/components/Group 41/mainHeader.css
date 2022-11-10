@@ -1,0 +1,72 @@
+/* This is the style for the main Header*/
+
+.main-header{
+    width: 1286px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #1E1f25;
+    margin-top:26px;
+}
+
+/* Part 1 (first half) of the main-header */
+.main-header-1{
+    width: 371.1px;
+    height: 29px;
+    border: 1px solid white;
+    margin-top:25.5px;
+    display: flex;
+    top: 25.5px;
+    left: 19.95px;
+
+}
+/* Company logo inside main-header*/
+#logo{
+    width: 88px;
+    height: 29px;
+    text-decoration: none;
+    /* margin: 25.5px 1178.05px 25.5px 19.95px ; */
+    
+}
+#logo h1{
+    font-family: 'Inter', sans-serif; 
+    font-weight: 500; 
+    font-size: 24px;
+    text-align: left;
+    vertical-align: top;
+    color: #ffffff;  
+}
+/* ........................*/
+/* Vertical line between the logo and next img/button element*/
+.line-break{
+    width:2px;
+    height: 23px;
+    border-radius: 21px;
+    background-color: #282c38;
+    /* border: 1px solid white; */
+    
+}
+/* ..........................*/
+/* Team */
+.team-name{
+    width: 88px;
+    height: 17px;
+    top: 3.5px;
+    left: 34px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #ffffff;
+
+}
+.button-img{
+    width: 9.1px;
+    height:7.47px;
+    top:4.77px;
+    left: 62px;
+    border-bottom-left-radius: 120%;
+    border-bottom-right-radius: 120%;
+    background-color: #3C4254;
+}
+
+/* */
