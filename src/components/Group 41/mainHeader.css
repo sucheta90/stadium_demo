@@ -6,6 +6,13 @@
     border-radius: 20px;
     background-color: #1E1f25;
     margin-top:26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: 128px;
+    margin-right:26px ;
+    /* margin-\bottom: 794px; */
 }
 
 /* Part 1 (first half) of the main-header */
@@ -17,15 +24,16 @@
     display: flex;
     top: 25.5px;
     left: 19.95px;
+    right: 894.95px;
+    bottom: 25.5px;
+    align-self: center;
 
 }
 /* Company logo inside main-header*/
 #logo{
     width: 88px;
     height: 29px;
-    text-decoration: none;
-    /* margin: 25.5px 1178.05px 25.5px 19.95px ; */
-    
+    text-decoration: none;    
 }
 #logo h1{
     font-family: 'Inter', sans-serif; 
@@ -69,4 +77,50 @@
     background-color: #3C4254;
 }
 
-/* */
+/* .............................*/
+
+/*Part 2 or the second half of the main header */
+.main-header-2{
+    width: 508px;
+    height: 40px;
+    top:20px;
+    left: 715.41px;
+    gap: 20px;
+    display: flex;
+}
+#folder{
+    width: 57px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: inherit;
+    letter-spacing: 4%;
+    font-style: normal;
+    line-height:17px;
+    vertical-align: top;
+}
+.premium-btn{
+    display: flex;
+    align-items: center;
+    width: 96px;
+    height:24px;
+    top: 8px;
+    left: 412px;
+    border-radius: 5px;
+    padding: 4px, 8px, 4px, 4px;
+    gap: 8px;
+    border: 0.5px solid #3C4254;
+    background-color: gray;
+
+}
+.premium-btn span{
+    width: 60px;
+    height: 15px;
+    top:4.5px;
+    left:28px;
+    line-height: 14.52px;
+    letter-spacing: 4%;
+    font-style: bold;
+    font-size: 12px;
+    color: #ffb545;
+}

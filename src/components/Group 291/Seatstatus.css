@@ -1,0 +1,226 @@
+/* COMPONENT BODY*/
+.body-main{
+    background-color: #1E1F25;
+    height: 742px;
+    width: 308px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;  
+}
+/*==================================*/
+
+/* HEADER */
+#stat-header{
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 18px;
+
+}
+#seat-stat{
+    height: 24px;
+    width: fit-content;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    padding-top: 18px;
+    padding-right: 191px;
+    padding-left: 20px;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#drop-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #757B8C;
+    opacity: 40%;
+    border-radius: 20%;
+    height: 20px;
+    width: 20px;
+    border-radius: 20%;
+    position: relative;
+    right: -250px;
+
+}
+.dot{
+    /* padding-top:5px;
+    padding-bottom: 5px; */
+    
+    
+}
+/*===============================*/
+
+/*LINE */
+.line47{
+    background-color:#282C38 ;
+    border: 1px solid #282C38;
+    height: 0px;
+    width: 268px;
+    left: 0px;
+    top: 44px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+/* ************CHAIRS *********/
+/* RED CHAIR*/
+.red-chair{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.top{
+    width: 17px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #FA2256; 
+    box-shadow: #FA2256 0 0 25px 0;
+    margin-bottom: .75px;  
+}
+.bottom{
+    width: 13px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #FA2256;
+    box-shadow: #FA2256 0 0 25px 0;
+}
+/* ************ */
+
+/*BLUE CHAIR*/
+.blue-chair{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.blue-chair .top{
+    width: 17px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #246CF9; 
+    box-shadow: #246CF9 0 0 25px 0;
+    margin-bottom: .75px;  
+}
+.blue-chair .bottom{
+    width: 13px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #246CF9;
+    box-shadow: #246CF9 0 0 25px 0;
+}
+/* ************  */
+
+/*GREEN CHAIR*/
+.green-chair{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.green-chair .top{
+    width: 17px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #30E0A1; 
+    box-shadow: #30E0A1 0 0 25px 0;
+    margin-bottom: .75px;  
+}
+.green-chair .bottom{
+    width: 13px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #30E0A1;
+    box-shadow: #30E0A1 0 0 25px 0;
+}
+/* ************ *********************************** */
+
+/*    THIS SECTION MAINTAINS THE LAYOUT OF THE 1)CHAIR INFO & 2) THE STAT SPHERE     */
+#vip-chair p, #standard-chair p, #economical-chair p{
+    color: #757B8C;
+    left: 27px;
+    top: 0px;
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+    line-height: 16.94px;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 60px;
+}
+
+#vip-chair , #standard-chair, #economical-chair{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+.chair-info{
+    display: inline-block;
+    margin-top: 20px ;
+    margin-left: 0;
+    padding-left: 0;
+}
+.stat-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px ;
+    margin-left: 20px ;
+}
+
+#stat-sphere{
+    display: inline-block ;
+    width:122px;
+    height:122px;
+    border-radius: 50%;
+    border-top: 6px solid #30E0A1 ;
+    border-top-right-radius: 50%;
+    border-left: 6px solid #246CF9;
+    border-bottom: 6px solid #FA2256;
+    border-right: 6px solid #FA2256;
+    transform: rotate(35deg);
+    
+}
+#percentage{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+#percentage-info{
+    transform: rotate(-35deg);
+    text-align:center;
+    margin-top: 30%;
+    color: #ffffff;
+}
+#percentage-info span{
+    display: block;
+}
+#percentage-info :nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin-top: 0;
+}
+/*********************************************/
+

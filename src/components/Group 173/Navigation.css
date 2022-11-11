@@ -1,0 +1,59 @@
+#navigation{
+    width: 952px;
+    height: 64px;
+    border-radius: 20px;
+    background-color: #1E1F25;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+#back{
+    width: 33px;
+    height: 17px;
+    top: 3.5px;
+    left: 34px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    color: #757B8C;
+    
+}
+.line{
+    width: 64px;
+    left: 107px;
+    border: 1px solid #282C38;
+    transform: rotate(90deg);
+    margin-left: 20px;
+    
+}
+.process-nav{
+    width: 356px;
+    height: 18px;
+    top: 23px;
+    left: 127px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+
+}
+.process{
+    height: 17px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #ffffff;
+
+}
+#choose-seats{
+    width: 94px;
+}
+#ticket-payment{
+
+}
+#success{
+    
+}
