@@ -1,5 +1,6 @@
 import React from "react";
 import "./Seatstatus.css"
+import redBox from '../../images/redBox.png'
 
 export default function(){
     return(
@@ -53,18 +54,16 @@ export default function(){
                 </section>
 
                    
-                <h4>Your Cart</h4>
+                <h4 className="cart-header">Your Cart</h4>
+        
                 <div className='line47'></div>
                    
-            
-
-                <div>
-                        <svg width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="89" cy="89" r="89" fill="#282C38"/>
-                        </svg>
+                <div id='sphere-cart'>
+                    <img id='red-box'src={redBox}/> 
+                 
                 </div>
-                <div>
-                    <h4>Cart is Empty 😿</h4>
+                <div className="stat-footer">
+                    <h4 >Cart is Empty 😿</h4>
                     <p>Select available seats that match your perfomance</p>
                 </div>
                 
