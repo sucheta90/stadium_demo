@@ -9,11 +9,11 @@ export default function(){
                 {/* Main header of the Seatstatus component*/}
                 
                     <h4 id='seat-stat'>Seat stats</h4>
-                    <span id="drop-btn">
+                    <button id="drop-btn">
                         <span className="dot">.</span>
                         <span className="dot">.</span>
                         <span className="dot">.</span>
-                    </span>
+                    </button>
                 
                 <div className='line47'></div>
                 <section className="stat-section">

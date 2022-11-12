@@ -5,5 +5,8 @@
   font-family: 'Inter', sans-serif;
 }
 body{
-  width: 100%;
+  max-width: 1440px;
+  height:900px;
+  background-color: #141518;
+  border-radius: 30px;
 }

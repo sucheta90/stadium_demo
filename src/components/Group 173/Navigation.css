@@ -1,12 +1,15 @@
 #navigation{
-    width: 952px;
-    height: 64px;
     border-radius: 20px;
     background-color: #1E1F25;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: "Inter", sans-serif;
+    position: absolute;
+    width: 952px;
+    height: 64px;
+    left: 128px;
+    top: 132px;
 }
 #back{
     width: 33px;

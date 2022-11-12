@@ -3,9 +3,13 @@
     background-color: #1E1F25;
     height: 742px;
     width: 308px;
-    left: 0px;
-    top: 0px;
     border-radius: 20px;  
+    position: absolute;
+    width: 308px;
+    height: 742px;
+    left: 1106px;
+    top: 132px;
+
 }
 /*==================================*/
 
@@ -46,11 +50,12 @@
     border-radius: 20%;
     position: relative;
     right: -250px;
+    border: none;
 
 }
 .dot{
     margin-bottom: 50%;
-    margin-left: 1px;
+    margin-left: 1.5px;
     margin-right: 1px;
     padding: 0;
     color: #ffffff;
@@ -286,3 +291,4 @@
     margin-top: 20px;
 }
 /* ********************************* */
+
