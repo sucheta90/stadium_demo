@@ -8,34 +8,52 @@
     position: absolute;
     width: 952px;
     height: 64px;
-    left: 128px;
+    left: 130px;
     top: 132px;
 }
-#back{
+.left-arrow{
+    width: 12.05px;
+    height: 15px;
+    position: absolute;
+    top: 25px;
+    left: 19.25px;
+    fill: rgba(117, 123, 140, 1);
+    
+}
+#back-btn{
+    text-decoration: none;
+}
+#back-btn :nth-child(2){
     width: 33px;
     height: 17px;
-    top: 3.5px;
-    left: 34px;
+    position: absolute;
+    top: 25px;
+    left: 60px;
     font-family: "Inter", sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     line-height: 100%;
     color: #757B8C;
-    
+    margin-left: 0;
+       
 }
 .line{
     width: 64px;
-    left: 107px;
+    /* left: 107px; */
     border: 1px solid #282C38;
     transform: rotate(90deg);
     margin-left: 20px;
-    
+    position: absolute;
+    left: 70px;
+     
 }
 .process-nav{
     width: 356px;
     height: 18px;
+    position: absolute;
     top: 23px;
-    left: 127px;
+    left: 150px;
     gap: 10px;
     display: flex;
     align-items: center;
@@ -51,6 +69,15 @@
     color: #ffffff;
 
 }
+.underline{
+    width: 94px;
+    height: 2px;
+    background-color:#246CF9;
+    border-radius: 41px;
+    position: absolute;
+    top: 38px;
+    box-shadow: 0 0 25px 0 #246CF9;
+}
 #choose-seats{
     width: 94px;
 }
@@ -59,4 +86,51 @@
 }
 #success{
     
+}
+
+.nav-sec-2{
+    display: flex;
+    position: absolute;
+    left:730px;
+}
+#seat-occupied,#seat-available {
+    display: flex;
+    /* width: 300px; */
+}
+#seat-occupied .blue-chair .top, #seat-occupied .blue-chair .bottom {
+    opacity: 40%;
+}
+#seat-occupied span, #seat-available span {
+    width: 64px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    line-height: 17px;  
+    color: #757B8C;
+}
+#seat-occupied span, #seat-available span{
+    position: absolute;
+    left: 24px;
+}
+
+#seat-available{
+    position: absolute;
+    left: 110px;
+}
+
+.blue-chair .top{
+    width: 17px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #246CF9; 
+    box-shadow: #246CF9 0 0 25px 0;
+    margin-bottom: 1px;  
+}
+.blue-chair .bottom{
+    width: 13px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #246CF9;
+    box-shadow: #246CF9 0 0 25px 0;
 }
