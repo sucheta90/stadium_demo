@@ -3,6 +3,7 @@ import folder from '../../images/opened-folder.png';
 import "./mainHeader.css"
 
 export default function MainHeader(){
+    
     return(
         <div className="main-header">
             <div className="main-header-1">
@@ -32,30 +33,41 @@ export default function MainHeader(){
                 </form> */}
 
             </div>
+            <div></div>
             <div className="main-header-2">
                 <form>
-                    <input type='input' placeholder="search-btn Type to search... mic"></input>
+                    {/* <div>
+                        <input type='submit' value='mic' ></input>
+                    </div> */}
+                    <input type='input' placeholder='Type to search...' className="search-bar"></input>
                 </form>
                 <span className="line-break"></span>
-                <div><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 16.8476C15.6392 16.8476 18.2481 16.1242 18.5 13.2205C18.5 10.3188 16.6812 10.5054 16.6812 6.94511C16.6812 4.16414 14.0452 1 10 1C5.95477 1 3.31885 4.16414 3.31885 6.94511C3.31885 10.5054 1.5 10.3188 1.5 13.2205C1.75295 16.1352 4.36177 16.8476 10 16.8476Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="white"/>
-                    </svg>
-                    <svg width="8" height="3" viewBox="0 0 8 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.38886 0.857178C5.02473 2.37189 2.89672 2.38985 1.51953 0.857178" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="white"/>
+                <div id='notification'>
+                    <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.41058 16.8476C15.0498 16.8476 17.6586 16.1242 17.9106 13.2205C17.9106 10.3188 16.0917 10.5054 16.0917 6.94511C16.0917 4.16414 13.4558 1 9.41058 1C5.36535 1 2.72943 4.16414 2.72943 6.94511C2.72943 10.5054 0.910583 10.3188 0.910583 13.2205C1.16354 16.1352 3.77236 16.8476 9.41058 16.8476Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.7994 19.8572C10.4352 21.3719 8.30724 21.3899 6.93005 19.8572" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
             
-                <div>
+                <div id='night-mode'>
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.6606 4.75C10.6606 3.3315 10.9801 1.9905 11.5376 0.7815C11.3296 0.7675 11.1221 0.75 10.9106 0.75C5.80208 0.75 1.66058 4.8915 1.66058 10C1.66058 15.1085 5.80208 19.25 10.9106 19.25C14.5076 19.25 17.6176 17.1925 19.1476 14.1945C14.3776 13.6885 10.6606 9.6545 10.6606 4.75Z" stroke="#E5E6ED" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                <span className="line-break"></span>
-                <button className="premium-btn">
-                    <div>star</div>
-                    <span>PREMIUM</span>
+                <div className="premium-selection">
+                    <span className="line-break"></span>
+                    <button className="premium-btn">
+                        <div id='star'>
+                            <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M8.06143 1.07573L9.54575 4.05858C9.65511 4.27469 9.86382 4.42477 10.1045 4.45812L13.4386 4.9437C13.6333 4.97105 13.81 5.07376 13.9294 5.23051C14.0474 5.38526 14.0981 5.58136 14.0694 5.77412C14.046 5.9342 13.9707 6.08228 13.8553 6.19567L11.4395 8.53753C11.2628 8.70094 11.1828 8.94307 11.2254 9.17985L11.8202 12.4722C11.8836 12.8697 11.6202 13.2446 11.2254 13.32C11.0627 13.346 10.896 13.3186 10.7493 13.2439L7.77537 11.6945C7.55466 11.5831 7.29393 11.5831 7.07322 11.6945L4.09925 13.2439C3.73384 13.438 3.28107 13.306 3.07769 12.9458C3.00235 12.8024 2.97567 12.6389 3.00034 12.4795L3.59514 9.18652C3.63781 8.9504 3.55713 8.70695 3.38109 8.54353L0.965241 6.20301C0.677846 5.92553 0.669177 5.46863 0.945903 5.18115C0.951905 5.17515 0.958573 5.16848 0.965241 5.16181C1.07993 5.04508 1.23063 4.97105 1.39333 4.9517L4.72738 4.46546C4.96743 4.43144 5.17615 4.2827 5.28617 4.06525L6.71714 1.07573C6.8445 0.819602 7.10856 0.660188 7.39529 0.666858H7.48464C7.73336 0.696873 7.95007 0.850952 8.06143 1.07573Z" fill="#FFB545"/>
+                            <path d="M7.40524 11.6114C7.2761 11.6154 7.1503 11.6501 7.03714 11.7121L4.07771 13.2581C3.7156 13.4309 3.28227 13.2968 3.07925 12.9505C3.00403 12.809 2.97674 12.6469 3.00204 12.4881L3.59313 9.20209C3.63306 8.96323 3.55319 8.72036 3.37946 8.55223L0.962521 6.21231C0.675631 5.93141 0.670306 5.47037 0.951205 5.1828C0.955199 5.17879 0.958527 5.17546 0.962521 5.17212C1.07701 5.05869 1.22478 4.98397 1.38387 4.96061L4.72072 4.46955C4.96234 4.43885 5.17202 4.28806 5.27852 4.06922L6.72895 1.04207C6.86674 0.797868 7.13099 0.652416 7.41056 0.667762C7.40524 0.865924 7.40524 11.4766 7.40524 11.6114Z" fill="#FFB545"/>
+                            </svg>
 
-                </button>
+                        </div>
+                        <span>PREMIUM</span>
+
+                    </button>
+                </div>
             </div>
             
 
