@@ -81,12 +81,13 @@
 #choose-seats{
     width: 94px;
 }
-#ticket-payment{
+#ticket-payment, #success{
+    color: #757B8C;
+    font: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
 
-}
-#success{
-    
-}
 
 .nav-sec-2{
     display: flex;
