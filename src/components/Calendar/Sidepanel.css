@@ -9,6 +9,7 @@
     bottom: 0%;
     background-color:#1E1F25 ;
 }
+/*  LOGO DASHCUBE*/
 #dashcube-logo{
     height: 23.03px;
     width: 21px;
@@ -23,6 +24,7 @@
     top: 25px;
    
 }
+/* LINE 44 */
 .line44{
     width:76px;
     border: 1px solid rgba(40, 44, 56, 1) ;
@@ -30,9 +32,10 @@
     height: 0px;
     left: 0px;
     top: 76px;
-    /* margin-top: 26.97px; */
+    
 
 }
+/* CONTROLS BUTTONS SECTION 1*/
 .group-1{
     display: flex;
     flex-direction: column;
@@ -53,6 +56,8 @@
     top: 26px;
     left: 11px;
 }
+
+/* CONTROLS BUTTONS SECTION 2*/
 .group-2{
     display: flex;
     flex-direction: column;
@@ -64,6 +69,7 @@
     top: 50%;
 
 }
+/* CONTROLS BUTTONS SECTION 3*/
 .group-3{
     display: flex;
     flex-direction: column;
@@ -75,6 +81,7 @@
     top: 75%;
 
 }
+/* BUTTON LOG OUT*/
 #log-out{
     height: 20px;
     width: 20px;
