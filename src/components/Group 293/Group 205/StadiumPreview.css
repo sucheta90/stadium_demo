@@ -51,3 +51,57 @@
     bottom: 90.57%;
     background-color: rgba(36, 108, 249, 0.2); ;
 }
+.vector-38{
+    height: 15px;
+    width: 13.5px;
+    left: 40px;
+    top: 1px;
+    border-radius: 0px;
+    position: absolute;
+    
+    
+
+
+}
+#top-left-red{
+    height: 4px;
+    width: 4px;
+    border-radius: 0px;
+    position: absolute;
+    left:-25%;
+    right: 92.86%;
+    top:-90%;
+    
+
+
+}
+#top-right-red{
+    height: 4px;
+    width: 4px;
+    border-radius: 0px;
+    position: absolute;
+    left: 50px;
+    top: -85%;
+    
+
+}
+#bottom-left-red{
+    height: 4px;
+    width: 4px;
+    border-radius: 0px;
+    position: absolute;
+    left: -20%;
+    right: 92.54%;
+    top: 30%;
+    
+}
+#bottom-right-red{
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    /* left: 14.08%; */
+    right: -18%;
+    top: 75%;
+    
+     
+}
