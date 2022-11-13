@@ -33,77 +33,68 @@
     /* margin-top: 26.97px; */
 
 }
-
-.dashboard{
-    width: 20px;
-    height:20px;
+.group-1{
     display: flex;
-    align-self: center;
     flex-direction: column;
-    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
     position: absolute;
-    left: 8.33%;
-    right: 8.33%;
-    top: 8.33%;
-    bottom: 8.33%;
-    margin-left: auto;
-    margin-right: 25px;
-    margin-top:32px ;
+    left: 30%;
+    top: 10%;
 }
-.cube{
-    height: 8.5344877243042px;
-    width: 8.463014602661133px;
-    border-radius: 0px;
-    background-color: #757B8C;
-    border-radius: 25%;
-    margin: 1px;
-    
+.dashboard, #project-task, #calendar-view, #documents, #store-cart, #figma-icon, #slack-icon, #jira-icon{
+    width:20px;
+    height: 20px;
 }
-.dash-top, .dash-bottom{
+
+#single-cube-dashboard{
+    position: absolute;
+    top: 26px;
+    left: 11px;
+}
+.group-2{
     display: flex;
-}
-.dash-top :nth-child(2){
-    opacity: 40%;
-}
-.projects{
-    height: 18px;
-    width: 18px;
-    left: 2px;
-    top: 4px;
-    border-radius: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
     position: absolute;
-    left:33%;
-    /* right: 17%; */
-    top: 18%;
-    bottom: 8.33%;
-    /* color: rgba(36, 108, 249, 1); */
+    left: 30%;
+    top: 50%;
 
 }
-.ellipse{
-    height: 5px;
-    width: 5px;
-    left: 17px;
-    top: 2px;
-    border-radius: 0px;
+.group-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
     position: absolute;
-    left: 70.83%;
-    right: 8.33%;
-    top: 8.33%;
-    bottom: 70.83%;
-    background: #757B8C;
-    mix-blend-mode: normal;
-    opacity: 0.4;
+    left: 36%;
+    top: 75%;
+
 }
-.calendar-icon{
+#log-out{
     height: 20px;
-    width: 18px;
-    left: 3px;
-    top: 2px;
-    border-radius: 0px;
-    position: absolute;
-    left: 33%;
-    top: 23%;
+    width: 20px;
 }
-.folder-icon{
-    
+
+#panel-footer{
+    height: 82px;
+    width: 76px;
+    left: 0px;
+    top: 766px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #282C38;
+    position: absolute;
+
+
+}
+#ellipse48{
+    width: 42px;
+    height:42px;
+    position: absolute;
+    left: 16px;
+    top: 20px;
 }

@@ -1,0 +1,285 @@
+#hero{
+    height: 652px;
+    width: 952px;
+    position: absolute;
+    left: 128px;
+    top: 222px;
+    border-radius: 20px;
+    background-color: #1E1F25 ;
+}
+/* ********** SCENE **************/
+#scene{
+    height: 150px;
+    width: 540px;
+    border-radius: 0px;
+    /* border: .5px solid white; */
+    position: absolute;
+    left: 21.64%;
+    right: 21.64%;
+    top: 8.28%;
+    bottom: 68.71%;
+
+
+}
+#vertical-left{
+    width: 11%;
+    transform: rotate(90deg);
+    border: 8px solid rgba(40, 44, 56, 1);
+    position: absolute;
+    left: -5%;
+    top:20%;
+    border-top: none;
+    border-radius: 10%;
+
+}
+#vertical-right{
+    width: 11%;
+    transform: rotate(90deg);
+    border: 8px solid rgba(40, 44, 56, 1);
+    position: absolute;
+    right: -5%;
+    top:20%;
+    border-top: none;
+    border-radius: 10%;
+
+}
+#left-box{
+    border: 8px solid rgba(40, 44, 56, 1);
+    border-top: transparent;
+    position: absolute;
+    top: 100px;
+    left: -2%;
+    transform: rotate(35deg);
+    height: 0;
+    width: 150px;
+}
+#right-box{
+    border: 8px solid rgba(40, 44, 56, 1);
+    transform: rotate(-35deg);
+    position: absolute;
+    right: -2%;
+    top: 100px;
+    width: 150px;
+    height:0px;
+    border-top: transparent;
+}
+#box-base{
+    width: 54%;
+    border: 8px solid rgba(40, 44, 56, 1);
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    border-top: none;
+}
+/* ***************************** */
+
+.scene-header{
+    height: 36px;
+    width: 155px;
+    position: absolute;
+    left: 38%;
+    top: 15%;
+    border-radius: 0px;
+    color: #3C4254;
+    font-weight: 400;
+    font-size: 2.2rem;
+    font-family: 'Inter', sans-serif;
+
+}
+
+#stad-mid{
+    width: 400px;
+    height: 300px;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 270px;
+    left: 29%;
+    
+}
+.red-row-1, .red-row-2,.red-row-3{
+    display: flex;
+    margin-bottom: 15px ;
+
+}
+.red-row-1 div, .red-row-2 div,.red-row-3 div, .green-row-1 div, .green-row-2 div,.green-row-3 div, .blue-row-1 div, .blue-row-2 div,.blue-row-3 div{
+    margin-right: 3px;
+    
+}
+/* .red-row-1 div, .red-row-2 div,.red-row-3 div, .green-row-1 div, .green-row-2 div,.green-row-3 div, .blue-row-1 div, .blue-row-2 div,.blue-row-3 div :{
+    margin-right: 3px;
+} */
+.green-row-1, .green-row-2,.green-row-3{
+    display: flex;
+    margin-bottom: 15px ;
+}
+.blue-row-1, .blue-row-2,.blue-row-3{
+    display: flex;
+    margin-bottom: 15px ;
+}
+.blue-row-3{
+    position: absolute;
+    left: 7%;
+    top: 80%;
+}
+.blue-row-2{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+}
+.blue-row-1{
+    position: absolute;
+    left: 12%;
+    top: 60%;
+}
+.green-row-3{
+    position: absolute;
+    left: 14%;
+    top: 50%;
+}
+.green-row-2{
+    position: absolute;
+    left: 17%;
+    top: 40%;
+}
+.green-row-1{
+    position: absolute;
+    left: 19%;
+    top: 30%;
+}
+.red-row-3{
+    position: absolute;
+    left: 21%;
+    top: 20%;
+}
+.red-row-2{
+    position: absolute;
+    left: 23%;
+    top: 10%;
+}
+.red-row-1{
+    position: absolute;
+    left: 26%;
+    top: 0%;
+}
+.green-chair div{
+    opacity: 40%;
+}
+
+#stad-left{
+    width: 140px;
+    height: 300px;
+    /* border: 1px solid white; */
+    position: absolute;
+    left: 16%;
+    bottom:18%;
+    transform: rotate(15deg);
+
+}
+#stad-left .row-red div,#stad-left .row-green div,#stad-left .row-blue div {
+    transform: rotate(4deg);
+}
+#stad-right .row-red div,#stad-right .row-green div,#stad-right .row-blue div {
+    transform: rotate(-3deg);
+}
+#stad-right{
+    width: 130px;
+    height: 300px;
+    position: absolute;
+    right: 16%;
+    bottom: 20%;
+    transform: rotate(-29deg);
+}
+#stad-right .red-row-1{
+    right: 10%
+}
+#stad-right .red-row-2{
+    right: 10%
+}
+
+#round-area-btn{
+    height: 36px;
+    width: 127px;
+    left: 20px;
+    top: 168px;
+    border-radius: 64px;
+    padding: 6px 15px 6px 6px;
+    background-color: #282C38;
+    position: absolute;
+    /* display: flex; */
+    flex-direction: colu;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 24px 24px -16px rgba(15, 15, 15, 0.2);
+}
+#round-area-btn :nth-child(1){
+    width: 15px;
+    height: 15px;
+    left: 15px;
+    top: 9px;
+
+}
+#round-area-btn p{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    height: 17px;
+    width: 90px;
+    position: absolute;
+    left: 35px;
+    top: 9px;
+    border-radius: nullpx;
+    color: #757B8C;
+
+}
+#final-area-btn{
+    height: 36px;
+    width: 120px;
+    left: 816px;
+    top: 168px;
+    border-radius: 64px;
+    font-size: 14px;
+    padding: 6px 6px 6px 15px;
+    background-color: #282C38;
+    box-shadow: 0px 24px 24px -16px rgba(15, 15, 15, 0.2);
+    color: #757B8C;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#final-area-btn p{
+   position: absolute;
+   right: 30%;
+   top: 25%;
+}
+.right-arrow{
+    transform: rotate(180deg);
+    position: absolute;
+    right: 10%;
+    top: 25%;
+}
+#control-btn-left{
+    height: 36.000003814697266px;
+    width: 157px;
+    left: 20px;
+    top: 598px;
+    border-radius: 0px;
+    position: absolute;
+    left: 2.1%;
+    right: 81.41%;
+    top: 91.72%;
+    bottom: 2.76%;
+}
+.btn-grp{
+    height: 65.00000000000006px;
+    width: 36.00000000000003px;
+    left: 0px;
+    top: 36px;
+    border-radius: 64px;
+    padding: 6px;
+    background-color: rgba(40, 44, 56, 1);
+    box-shadow: 0 24px 24px -16px rgba(15, 15, 15, 0.2);
+    transform: rotate(90deg);
+}

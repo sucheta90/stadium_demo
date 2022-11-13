@@ -126,6 +126,7 @@
     background-color: #246CF9; 
     box-shadow: #246CF9 0 0 25px 0;
     margin-bottom: 1px;  
+    opacity: 100%;
 }
 .blue-chair .bottom{
     width: 13px;
