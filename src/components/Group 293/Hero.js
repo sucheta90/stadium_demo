@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css"
-import StadiumPreview from "./Group 205/StadiumPreview";
 import {useState} from 'react';
 
 export default function Hero(){
@@ -41,7 +40,7 @@ export default function Hero(){
             
     return(
         <div id='hero'>
-            <StadiumPreview />
+            
             <div id='scene'>
                 <div id='vertical-left'></div>
                 <div id='left-box'></div>
@@ -141,7 +140,7 @@ export default function Hero(){
                     <div className="blue-row-3">{seat_blue}{seat_blue}{seat_blue}{seat_blue}{seat_blue}</div>
                 </div>
             </div>
-            <div id='round-area-btn'>
+            {/* <div id='round-area-btn'>
                 <span className="left-arrow">
                     <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.25 7.27429L16.25 7.27429" stroke="#757B8C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -158,9 +157,9 @@ export default function Hero(){
                     <path d="M7.2998 13.2987L1.2498 7.27469L7.2998 1.24969" stroke="#757B8C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </span>
-            </div>
+            </div> */}
 
-            <div id='control-btn-left'>
+            {/* <div id='control-btn-left'>
                 <div className="btn-grp">
                     <span className="plus-counter">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -191,7 +190,7 @@ export default function Hero(){
 
                     </span>
                 </div>
-            </div>
+            </div> */}
 
 
 
