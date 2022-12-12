@@ -23,7 +23,7 @@ export default class Zones extends React.Component{
         }
         return(
             
-            <div >
+            <div className='all-zones'>
                {row_array}
             </div>
         

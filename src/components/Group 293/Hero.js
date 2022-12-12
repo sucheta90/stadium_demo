@@ -1,27 +1,28 @@
 import React from "react";
 import "./Hero.css";
 import Zone from './zone';
+import { Icon } from '@iconify/react';
 //import Zone1 from "./zone1";
 
 export default function Hero(){
 
-    let seat_blue = <div className="blue-chair">
-                        <div className="top"></div>                    
-                        <div className="bottom"></div>                      
-                    </div>
+    // let seat_blue = <div className="blue-chair">
+    //                     <div className="top"></div>                    
+    //                     <div className="bottom"></div>                      
+    //                 </div>
                     
                     
                
-    let seat_red =  <div className="red-chair">
-                        <div className="top"></div>                    
-                        <div className="bottom"></div>                      
-                    </div>
+    // let seat_red =  <div className="red-chair">
+    //                     <div className="top"></div>                    
+    //                     <div className="bottom"></div>                      
+    //                 </div>
                     
                 
-    let seat_green = <div className="green-chair">
-                        <div className="top"></div>                    
-                        <div className="bottom"></div>                      
-                    </div>
+    // let seat_green = <div className="green-chair">
+    //                     <div className="top"></div>                    
+    //                     <div className="bottom"></div>                      
+    //                 </div>
     //const [isActive, setIsActive]= React.useState(true)
     // function toggle(e){
     //     if (e.target.className === 'top' || e.target.className === 'bottom') {
@@ -50,12 +51,14 @@ export default function Hero(){
                 <div id='vertical-right'></div>
                 <h1 className="scene-header">SCREEN</h1>
             </div>
-            
-            <Zone zone_id="z1" />
+            <div className="seating">
+            <Zone zone_id="z1"  />
             
             <Zone zone_id="z2"/>
 
-            <Zone zone_id="z3"/>
+            <Zone zone_id="z3" />
+            </div>
+           
 
 
         </div>

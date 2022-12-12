@@ -99,6 +99,7 @@
     border-radius: 2px;
     background-color: #FA2256;
     box-shadow: #FA2256 0 0 25px 0;
+    filter: drop-shadow(0 0 25 #FA2256 );
 }
 /* ************ */
 
